@@ -10,28 +10,69 @@
     <style>
         body{
             font-family: rubik;
+            font-size:xx-small;
+        }
+
+        svg{
+            margin: 0;
+            padding: 0;
+            
         }
     </style>
 </head>
 <body>
-    <svg width="100%" height="100vh">
+    
+    <svg width="100%" height="100vh" viewBox="0 0 100 100" >
 
+        <!-- Lines -->
+            <!-- C to C++ & C#  -->
+            <path d="M0 15 L-25 15 L-25 30 L-40 30 L-25 30  L-25 40"  fill="none" stroke="black"></path>
+               
+            <!-- 3 to HTML -->
+                <path d="M0 15 L0 35 L50 35 L50 15 L50 35 L50 50 L50 35 L100 35 L100 15" fill="none" stroke="black"></path>
+
+            <!-- HTML to CSS & JS -->
+            <path d="M50 50 L50 62 L15 70 L50 62 L85 70" fill="none" stroke="black"></path>
 
         <!-- Circles -->
 
+            <!-- Connecting circle -->
+            <circle cx="50" cy="35" r="2" fill="rgb(0, 85, 255)" stroke="rgb(0, 85, 255)"></circle>
 
-        <!-- C++ Circle -->
-        <circle cx="30%" cy="20%" r="80" fill="white" stroke="black" stroke-width="3px"></circle>
-        <text x="30%" y="20%" text-anchor="middle" fill="black">C++</text>
 
-        <!-- Java Circle -->
-        <circle cx="50%" cy="20%" r="80" fill="white" stroke="black" stroke-width="3px"></circle>
-        <text x="50%" y="20%" text-anchor="middle" fill="black">Java</text>
+            <!-- C Circle -->
+            <circle cx="0" cy="15 " r="8" fill="white" stroke="black" stroke-width="1"></circle>
+            <text x="0 " y="15 " text-anchor="middle" alignment-baseline="middle" fill="black" font-size="4px">C</text>
 
-        <!-- Python Circle -->
-        <circle cx="70%" cy="20%" r="80" fill="white" stroke="black" stroke-width="3px"></circle>
-        <text x="70%" y="20%" text-anchor="middle" fill black>Python</text>
+                <!-- C++ Circle -->
+                <circle cx="-40 " cy="30 " r="5" fill="white" stroke="black" stroke-width="1px"></circle>
+                <text x="-40 " y="30 " text-anchor="middle" fill="black" font-size="2px">C++</text>
 
+                <!-- C# Circle -->
+                <circle cx="-25 " cy="40 " r="5" fill="white" stroke="black" stroke-width="1px"></circle>
+                <text x="-25 " y="40 " text-anchor="middle" fill="black" font-size="2px">C#</text>
+
+            <!-- Java Circle -->
+            <circle cx="50 " cy="15 " r="8" fill="white" stroke="black" stroke-width="1px"></circle>
+            <text x="50 " y="15 " text-anchor="middle" alignment-baseline="middle" fill="black" font-size="4px">Java</text>
+
+            <!-- Python Circle -->
+            <circle cx="100 " cy="15 " r="8" fill="white" stroke="black" stroke-width="1px"></circle>
+            <text x="100 " y="15 " text-anchor="middle" alignment-baseline="middle" fill="black" font-size="4px">Python</text>
+
+
+            <!-- HTML Circle -->
+            <circle cx="50" cy="50" r="9" fill="white" stroke="black" stroke-width="1px" ></circle>
+            <text x="50" y="50" text-anchor="middle" alignment-baseline="middle" fill="black" font-size="4px">HTML</text>
+
+
+            <!-- CSS Circle -->
+            <circle cx="15" cy="70" r="7" fill="white" stroke="black" stroke-width="1px"></circle>
+            <text x="15" y="70" text-anchor="middle" fill="black" font-size="2px">CSS</text>
+
+            <!-- JS Circle -->
+            <circle cx="85" cy="70" r="7" fill="white" stroke="black" stroke-width="1px"></circle>
+            <text x="85" y="70" text-anchor="middle" fill="black" font-size="2px">JavaScript</text>
     </svg>
 </body>
 </html>
