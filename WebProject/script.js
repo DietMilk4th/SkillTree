@@ -1,3 +1,0 @@
-function cliclCircle(circleColor){
-
-}
