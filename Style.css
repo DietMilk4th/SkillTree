@@ -4,7 +4,7 @@ html {
     padding: 0;
     margin-top: 0;
     overflow: hidden;
-    font-family:Helvetica, Arial, Sans-serif;
+    font-family:rubik;
 }
 
 .wave {
@@ -16,6 +16,10 @@ html {
 
 :root{
     --universal-color:rgb(35, 166, 242);
+}
+
+input:focus{
+    outline: none;
 }
 
 form{
@@ -53,23 +57,31 @@ form{
     
 }
 
-.button{
-    background: rgb(255, 98, 0);
-    color: white;
-    font-weight: bold;
-    font-size: medium;
-    margin: 10px auto;
-    align-self: center;
-    width: 50%;
-    border: none;
-    height: 40px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transform: skew(-25deg);
-    
-}
+
 
 .button > span{
     transform: skew(25deg);
     display: inline-block;
+    
+}
+root{
+    --color:rgb(240, 220, 5);
+}
+
+.alert-errors{
+    
+    margin: 5% 10% 0 5% ;
+    background: rgba(255, 0, 0, 0.5);
+    width: 300px;
+    border-radius: 7px;
+    backdrop-filter: blur(8px);
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.error-text{
+    align-self: center;
+    text-align: center;
 }
