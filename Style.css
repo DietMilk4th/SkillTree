@@ -16,6 +16,7 @@ html {
 
 :root{
     --universal-color:rgb(35, 166, 242);
+    --color:rgb(0, 132, 255);
 }
 
 input:focus{
